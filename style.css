@@ -25,10 +25,9 @@ body {
 .ytb {
     height: 100px;
     width: 100px;
-    box-shadow : 8px 8px 5px black;
-    float: left;
-    margin-top: -100px;
-    margin-left: -150px;
+    float: center;
+    margin-top: 0px;
+    margin-left: 0px;
     top: 100px;
     left: 900px;
  
