@@ -1,5 +1,7 @@
 # tohka.github.io
-Ici, nous sommes sur la version "Help" de Glin Kidpaddleetcie !
+Le code de mon site, merci à Glin Kidpaddleetcie d'avoir contribué à l'amélioration du code
+
+Commentaires des contributeurs; Ici, nous sommes sur la version "Help" de Glin Kidpaddleetcie ! (Glin Kidpaddleetcie)
 
 ## Toh-ka Website Network
 
