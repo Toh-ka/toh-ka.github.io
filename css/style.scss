@@ -1,5 +1,6 @@
 /* page principale*/
 
+// On emploi le SCSS sur Visual Studio Code pour amélioré la génération d'une feuille "CSS" avec TOUTES les compatibilités possibles et avec une structure plus facile à lire que ça fait un sandwich !
 body {
     margin: 0px;
     padding: 0px;
@@ -24,6 +25,7 @@ p {
     margin: 5px;
 }
 
+// Tout les liens rétrécissent un peu quand on passe le curseur dessus !
 a:link {
     text-decoration: none !important;
     transition: all 0.2s;
@@ -32,6 +34,7 @@ a:link {
     }
 }
 
+// On centre tout !
 .tki {
     text-align: center;
 }
