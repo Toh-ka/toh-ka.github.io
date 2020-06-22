@@ -2,17 +2,36 @@
 <html>
 
 <head>
+    <!-- Le titre de la page-->
     <title>Où trouver Toh-ka</title>
+
+    <!-- Le format de rédaction, l'UTF-8 permet d'avoir les accents !-->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+    <!-- Les précisions sur l'identité du site web-->
+    <meta name="title" content="TOH-KA">
+    <meta name="author" content="Toh-ka">
+    <meta name="description" content="Le site de Toh-ka">
+    <meta name="keywords" content="Toh-ka">
+    <meta name="theme-color" content="E9A99F" />
     <link rel="icon" href="../img/icon.PNG" type="image/jpg">
+
+    <!-- Gestion de la compatibilité du site web-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Les feuilles de style-->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <!-- Font Awesome permet de générer les petites icones pour la barre de navigation ! -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- Bootstrap permet de gérer la structure du site web en prenant en compte sa mise en forme selon la taile de l'écran !-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
 </head>
 
 <body>
+
+    <!-- La barre de navigation -->
     <header>
         <nav class="navbar sticky-top navbar-dark navbar-expand-lg" style="background-color: rgb(238, 110, 115);">
             <a class="navbar-brand" href="#">
@@ -44,31 +63,53 @@
         </nav>
     </header>
 
+    <!-- Le contenu -->
     <h1 class="toù">Contact</h2>
 
-        <a href="https://www.youtube.com/channel/UC_EfLUO4DJcfsCuPhjc4e8A" target="-blank">
-            <div class="media">
-                <img src="../img/youtube.png" class="mr-3" alt="YouTube Channel">
-                <div class="media-body">
-                    <h5 class="mt-0">YouTube</h5>
-                    Vous me trouverez certainement sur youtube à poster des conneries pour votre plus grand bonheur ^^
+        <section class="container vw-100 w-auto p-3">
+            <div id="PartieYouTube" class="row clearfix shadow-sm p-3 mb-5 bg-white rounded">
+                <div class="col-9 w-auto p-3">
+                    <a href="https://www.youtube.com/channel/UC_EfLUO4DJcfsCuPhjc4e8A" target="-blank">
+                        <div class="media">
+                            <img src="../img/youtube.png" class="mr-3" alt="YouTube Channel">
+                            <div class="media-body">
+                                <h5 class="mt-0">YouTube</h5>
+                                Vous me trouverez certainement sur youtube à poster des conneries pour votre plus grand bonheur ^^
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-4 mx-auto p-3">
+                    <div class="g-ytsubscribe align-middle" data-channelid="UC_EfLUO4DJcfsCuPhjc4e8A" data-layout="full" data-count="default"></div>
+                </div>
+                <div class="col-6 w-auto p-3">
+                    <div class="card-img-top embed-responsive embed-responsive-16by9 mx-auto">
+                        <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/tGMqQnUGezU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
-        </a>
+            <div id="PartieTwitter" class="row clearfix shadow-sm p-3 mb-5 bg-white rounded">
+                <div class="col-9 w-auto p-3">
+                    <a href="https://twitter.com/Tohka_yt" target="-blank">
+                        <div class="media">
+                            <img src="../img/twitter.png" class="mr-3" alt="Twitter account">
+                            <div class="media-body">
+                                <h5 class="mt-0">Twitter</h5>
+                                J'ai aussi un compte twitter, où je poste que de la merde quasiment, mais c'est pas grave j'aime bien être un peu idiot ça me cultive ^^
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-4 mx-auto p-3">
+                    <a href="https://twitter.com/Tohka_yt?ref_src=twsrc%5Etfw" class="twitter-follow-button align-middle" data-size="large" data-lang="fr" data-dnt="true" data-show-count="false">Follow @Tohka_yt</a>
+                </div>
+            </div>
+        </section>
 
+
+        <!-- Les scripts de Google (pour YouTube), de Bootstrap et de Twitter pour gérer l'affichage des boutons et de la structure de la page ! -->
         <script src="https://apis.google.com/js/platform.js"></script>
-
-        <div class="g-ytsubscribe" data-channelid="UC_EfLUO4DJcfsCuPhjc4e8A" data-layout="full" data-count="default"></div>
-
-        <a href="https://twitter.com/Tohka_yt" target="-blank">
-            <div class="media">
-                <img src="../img/twitter.png" class="mr-3" alt="Twitter account">
-                <div class="media-body">
-                    <h5 class="mt-0">Twitter</h5>
-                    J'ai aussi un compte twitter, où je poste que de la merde quasiment, mais c'est pas grave j'aime bien être un peu idiot ça me cultive ^^
-                </div>
-            </div>
-        </a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
