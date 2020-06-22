@@ -2,17 +2,35 @@
 <html>
 
 <head>
+    <!-- Le titre de la page-->
     <title>Le site de Toh-ka</title>
+
+    <!-- Le format de rédaction, l'UTF-8 permet d'avoir les accents !-->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Les précisions sur l'identité du site web-->
     <link rel="icon" href="img/icon.PNG" type="image/jpg">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <meta name="title" content="TOH-KA">
+    <meta name="author" content="Toh-ka">
+    <meta name="description" content="Le site de Toh-ka">
+    <meta name="keywords" content="Toh-ka">
+    <meta name="theme-color" content="E9A99F" />
+
+    <!-- Gestion de la compatibilité du site web-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Les feuilles de style-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Font Awesome permet de générer les petites icones pour la barre de navigation ! -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- Bootstrap permet de gérer la structure du site web en prenant en compte sa mise en forme selon la taile de l'écran !-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
 </head>
 
 <body>
+    <!-- La barre de navigation -->
     <header>
         <nav class="navbar sticky-top navbar-dark navbar-expand-lg" style="background-color: rgb(238, 110, 115);">
             <a class="navbar-brand" href="#">
@@ -44,16 +62,26 @@
         </nav>
     </header>
 
-    <h2 class="tki">Présentation</h2>
-    <p class="moi"> Je m'appelle Raphaël, je suis un adolescent passioné par l'informatique, la culture nippone et les jeux vidéo. J'ai cette passion pour la programmation depuis mes 10 ans et je compte bien réaliser mon rêve qu'est de créer un jeu vidéo à moi tout seul
-        (enfin tout seul, pas avec une base quoi, vraiment un truc de A à Z). C'est à peu près tout, même si vous avez remarqué que oui, ce n'est pas tout.
-    </p>
-    <h2 class="temkoi">T'aimes quoi ?</h2>
-    <p class="jem">Alors ce que j'aime, bah y a beaucoup de choses que j'aime. Déjà j'aime manger et dormir, ça je pense que c'était évident. Mais ce que j'aime aussi c'est... Touhou Project. J'adore Touhou Project. Et le fait que ce soit une licence complètement libre
-        la rend encore plus cool. On en fait ce qu'on veut et le saint ZUN nous regardera avec un air fier (j'en fait beaucoup là non ?) D'ailleurs, mes projets comptent un fangame Touhou que j'espère pouvoir bientôt commencer mais pour le moment je ne
-        dirais rien. Mon anime/manga préféré est Kill La Kill et je pense qu'il le restera pour toujours même si j'ai une très très forte sympathie envers UQHolder!, la suite de Negima que je vous conseille d'aller voir, Negima a eu le droit à son succès
-        mais pas sa suite et c'est bien dommage je trouve.
-    </p>
+    <!-- Le contenu-->
+    <section>
+        <h2 class="tki">Présentation</h2>
+        <p class="moi"> Je m'appelle Raphaël, je suis un adolescent passioné par l'informatique, la culture nippone et les jeux vidéo. J'ai cette passion pour la programmation depuis mes 10 ans et je compte bien réaliser mon rêve qu'est de créer un jeu vidéo à moi tout
+            seul (enfin tout seul, pas avec une base quoi, vraiment un truc de A à Z). C'est à peu près tout, même si vous avez remarqué que oui, ce n'est pas tout.
+        </p>
+    </section>
+    <section>
+        <h2 class="temkoi">T'aimes quoi ?</h2>
+        <p class="jem">Alors ce que j'aime, bah y a beaucoup de choses que j'aime. Déjà j'aime manger et dormir, ça je pense que c'était évident. Mais ce que j'aime aussi c'est... Touhou Project. J'adore Touhou Project. Et le fait que ce soit une licence complètement
+            libre la rend encore plus cool. On en fait ce qu'on veut et le saint ZUN nous regardera avec un air fier (j'en fait beaucoup là non ?) D'ailleurs, mes projets comptent un fangame Touhou que j'espère pouvoir bientôt commencer mais pour le moment
+            je ne dirais rien. Mon anime/manga préféré est Kill La Kill et je pense qu'il le restera pour toujours même si j'ai une très très forte sympathie envers UQHolder!, la suite de Negima que je vous conseille d'aller voir, Negima a eu le droit
+            à son succès mais pas sa suite et c'est bien dommage je trouve.
+        </p>
+    </section>
+
+
+
+
+    <!-- Les scripts de Bootstrap pour gérer l'affichage et la structure de la page ! -->
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
