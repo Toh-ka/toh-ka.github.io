@@ -10,8 +10,4 @@ Le code de mon site, il est très basique mais ça marche bien quoi
 ### Merci aux contributeurs
 merci à Glin Kidpaddleetcie d'avoir contribué à l'amélioration du code
 
-#### Commentaires des contributeurs
-
-Ici, nous sommes sur la version "Help" de Glin Kidpaddleetcie ! (Glin Kidpaddleetcie)
-
 
